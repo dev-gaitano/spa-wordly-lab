@@ -6,7 +6,7 @@ Wordly, an online language learning platform, wants to improve its user experien
 
 ## Features
 
-- **Search for words**: Allow users to input a word into an HTML form and fetch its definition from an external API.
+- **Search for words**: Allow users to input a word into an HTML form and fetch definition from an API.
 - **Display definition**: Dynamically show the word’s definition, part of speech, and example usage.
 - **Error handling**: Display an error message if a word is not found or if the API request fails.
 
