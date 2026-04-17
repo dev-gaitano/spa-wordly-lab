@@ -53,8 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
       const phoneticEl = document.createElement("p")
       phoneticEl.innerText = phonetic
 
-      const phoneticAudioEl = document.createElement("p")
-      phoneticAudioEl.innerText = phoneticAudio
+      const phoneticAudioEl = document.createElement("audio")
+      phoneticAudioEl.controls = true
+
+      const source = document.createElement("source")
+      source.src = phoneticAudio
+      source.type = "audio/mpeg"
 
       const partOfSpeechEl = document.createElement("p")
       partOfSpeechEl.innerText = partOfSpeech
@@ -62,6 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
       displayArea.appendChild(wordEl)
       displayArea.appendChild(phoneticEl)
       displayArea.appendChild(phoneticAudioEl)
+      phoneticAudioEl.appendChild(source);
       displayArea.appendChild(partOfSpeechEl)
 
       definitions.forEach((definition) => {
