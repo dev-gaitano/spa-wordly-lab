@@ -13,8 +13,8 @@ Wordly, an online language learning platform, wants to improve its user experien
 ## Getting started
 
 ```sh
-git clone https://github.com/dev-gaitano/spa-wordly-lab.git
-cd spa-wordly-lab
+git clone https://github.com/dev-gaitano/wordly.git
+cd wordly
 ```
 
 ## Project structure
