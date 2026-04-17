@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./public/logo-light" alt="banner_img">
+    <img src="https://res.cloudinary.com/diwkfbsgv/image/upload/q_auto/f_auto/v1776427289/logo-light_dyfohn.png" alt="banner_img">
 </div>
 
 <br/>
