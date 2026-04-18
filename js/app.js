@@ -76,6 +76,10 @@ document.addEventListener("DOMContentLoaded", () => {
       const phoneticsDiv = document.createElement("div")
       phoneticsDiv.setAttribute("id", "phonetics-container")
 
+      const phoneticEl = document.createElement("p")
+      phoneticEl.innerText = phonetic
+      phoneticsDiv.appendChild(phoneticEl)
+
       const phoneticAudioEl = document.createElement("audio")
       phoneticAudioEl.controls = true
       phoneticsDiv.appendChild(phoneticAudioEl)
@@ -84,10 +88,6 @@ document.addEventListener("DOMContentLoaded", () => {
       source.src = phoneticAudio
       source.type = "audio/mpeg"
       phoneticAudioEl.appendChild(source)
-
-      const phoneticEl = document.createElement("p")
-      phoneticEl.innerText = phonetic
-      phoneticsDiv.appendChild(phoneticEl)
 
       mainContent.appendChild(phoneticsDiv)
 
